@@ -193,8 +193,8 @@ i {
 }
 
 .content_2_col_2 li {
-   
-    padding: 0.5rem 0 0.5rem 3rem;
+   list-style: none;
+    padding: 0.5rem 2rem;
 }
 
 .content_2_col_2:last-child {
