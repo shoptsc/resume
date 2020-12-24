@@ -183,6 +183,7 @@ i {
 .content_2_col_1 p {
     text-align: center;
     padding: 1rem 0;
+    text-transform: capitalize;
 }
 
 .content_2_col_2 p {
