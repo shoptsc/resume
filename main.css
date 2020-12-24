@@ -194,7 +194,7 @@ i {
 
 .content_2_col_2 li {
    
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0 0.5rem 3rem;
 }
 
 .content_2_col_2:last-child {
