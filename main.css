@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+    background: rgb(174, 200, 230);
+    color: black;
+    position: fixed;
+}
+
+.head div {
+    text-align: center;
+    margin: 0.2rem 0 0.2rem 5rem;
+}
+
+.head h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.head p {
+    font-style: italic;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.head1 {
+    display: none;
+}
+
+span a {
+    display: block;
+    color: black;
+    margin: 1rem 1rem;
+}
+
+#burger-menu {
+    display: block;
+    height: 100vh;
+}
+
+.burger-menu {
+    display: none;
+}
+
+hr {
+    height: 0.2rem;
+    background-color: rgb(238, 132, 132);
+}
+
+#burger-menu ul {
+    margin-top: 1rem;
+    background-color: rgb(174, 200, 230);
+    display: none;
+    position: fixed;
+    height: 100vh;
+}
+
+#burger-menu li {
+    list-style: none;
+    padding: 1rem 1rem;
+    color: black;
+}
+
+#burger-menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    padding-left: 1rem;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.profile {
+    min-height: 50vh;
+    background-color: rgb(174, 200, 230);
+    box-shadow: 8px 8px 5px grey;
+    width: 75%;
+    margin: 4rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.profile h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.profile p {
+    padding: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.profile .icons {
+    text-align: center;
+}
+
+.profile .icons i {
+    padding: 0 1rem;
+    color: black;
+}
+
+.content #img {
+    background-color: rgb(174, 200, 230);
+    width: 100%;
+    border-radius: 10px;
+    height: 100vh;
+}
+
+.content #img img {
+    background: rgb(174, 200, 230);
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.content .img {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.content .img img {
+    width: 40%;
+    padding: 1rem 2px;
+}
+
+.content_2 {
+    display: block;
+}
+
+.content_2_col_1 {
+    background: rgb(174, 200, 230);
+    box-shadow: 8px 8px 5px grey;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    min-height: 50vh;
+}
+
+.content_2_col_2 {
+    background: rgb(174, 200, 230);
+    box-shadow: 8px 8px 5px grey;
+    width: 75%;
+    margin: 4rem auto;
+    min-height: 50vh;
+    border-radius: 10px;
+}
+
+.content_2_col_1 h3,
+.content_2_col_2 h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.content_2_col_1 h4,
+.content_2_col_2 h4 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1.5rem 0 0.5rem;
+}
+
+.content_2_col_1 p {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.content_2_col_2 p {
+    text-align: center;
+    padding: 0.5rem 0;
+    text-transform: capitalize;
+}
+
+.content_2_col_2 li {
+    list-style-type: none;
+    padding: 0.5rem 2rem;
+}
+
+.content_2_col_2:last-child {
+    padding-bottom: 1rem;
+}
+
+.content_3 {
+    background-color: rgb(174, 200, 230);
+    box-shadow: 8px 8px 5px grey;
+    width: 75%;
+    margin: 4rem auto;
+    border-radius: 10px;
+}
+
+.content_3 h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.content_3 p {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+}
+
+.content_3_1 {
+    display: flex;
+    width: 100%;
+}
+
+.content_3_1 .img {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.content_4 {
+    background-color: rgb(174, 200, 230);
+    box-shadow: 8px 8px 5px grey;
+    width: 75%;
+    margin: 4rem auto;
+    border-radius: 10px;
+}
+
+.content_4 h4 {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.content_4 p {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.content_4 a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 0;
+}
+
+.content_4 .row {
+    display: block;
+}
+
+.content_4 .col {
+    width: 100%;
+    text-align: center;
+}
+
+.content_4 .col h4 {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+
+.content_4 .col-1 p {
+    text-align: center;
+    margin: 0.5rem 1rem;
+}
+
+.content_4 .col p {
+    padding: 1rem 0;
+}
+
+.content_4 .col a {
+    background-color: rgb(112, 143, 236);
+    border-radius: 1px;
+    color: rgb(174, 200, 230);
+    padding: 0.2rem;
+}
+
+.content_4 .col-1 {
+    padding-bottom: 3rem;
+}
+
+.content_4 .col img {
+    width: 80%;
+}
+
+.content_5 .col-1 {
+    background-color: rgb(174, 200, 230);
+    box-shadow: 8px 8px 5px grey;
+    width: 75%;
+    margin: 4rem auto;
+    border-radius: 10px;
+    min-height: 25vh;
+}
+
+.content_5 .col-1 h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.content_5 .col-1 h5 {
+    padding: 0.5rem 0;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.content_5 .col-1 p {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.content_5 .col {
+    display: flex;
+}
+
+.content_5 .col div {
+    width: 50%;
+}
+
+.contact {
+    background-color: rgb(174, 200, 230);
+    box-shadow: 8px 8px 5px grey;
+    width: 75%;
+    margin: 4rem auto 1rem;
+    border-radius: 10px;
+    min-height: 25%;
+}
+
+.contact h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+}
+
+.contact div {
+    padding: 0.5rem;
+}
+
+.contact div i {
+    padding-right: 1rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: rgb(174, 200, 230);
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+
+@media screen and (min-width: 750px) {
+    body {
+        background-size: 100vh;
+        background-position: center;
+    }
+    .head {
+        display: none;
+    }
+    .head1 {
+        background: rgb(174, 200, 230);
+        display: block;
+    }
+    .head1 h3 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .head1 p {
+        font-style: italic;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    #burger-menu {
+        display: none;
+    }
+    .burger-menu {
+        padding: 1rem 1.5rem;
+        /* background: rgb(179, 127, 138); */
+        background: rgb(174, 200, 230);
+        color: black;
+        height: 100vh;
+        position: fixed;
+        display: block;
+        flex: 2;
+    }
+    .burger-menu ul {
+        margin-top: 1rem;
+        background-color: rgb(174, 200, 230);
+        display: block;
+        margin-top: 1rem;
+        position: relative;
+        height: 100vh;
+    }
+    .burger-menu li {
+        list-style: none;
+        padding: 1rem 1rem;
+        color: black;
+    }
+    .burger-menu li a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+        padding-left: 1rem;
+    }
+    .profile {
+        margin: 4rem auto;
+    }
+    span a {
+        display: none;
+    }
+    .content {
+        flex: 1;
+        margin-left: 15rem;
+        width: 50%;
+    }
+    .profile {
+        min-height: 75vh;
+        border-radius: 10px;
+        padding: 2rem;
+    }
+    .content #img {
+        width: 90%;
+        margin: auto;
+    }
+    .content .img img {
+        width: 30%;
+        padding: 1rem 2px;
+    }
+    .content_2 {
+        display: flex;
+        width: 75%;
+        min-height: 50vh;
+        margin: auto;
+    }
+    .content_2 .content_2_col_1 {
+        width: 48%;
+        margin: auto;
+    }
+    .content_2_col_2 {
+        width: 48%;
+        margin: 0 auto;
+    }
+    .content_4 .row {
+        display: flex;
+    }
+    .content_5 {
+        display: flex;
+        width: 75%;
+        margin: auto;
+    }
+    .content_5 .col-1 {
+        width: 30%;
+        margin: 0 auto;
+    }
+}
