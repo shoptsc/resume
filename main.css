@@ -96,7 +96,7 @@ hr {
     padding: 1rem;
 }
 
-.profile h3 {
+.profile h4 {
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 5px;
@@ -140,6 +140,10 @@ hr {
     padding: 1rem 2px;
 }
 
+i {
+    color: rgb(201, 74, 36);
+}
+
 .content_2 {
     display: block;
 }
@@ -162,8 +166,8 @@ hr {
     border-radius: 10px;
 }
 
-.content_2_col_1 h3,
-.content_2_col_2 h3 {
+.content_2_col_1 h4,
+.content_2_col_2 h4 {
     text-align: center;
     text-transform: uppercase;
     padding: 1rem 0;
@@ -204,7 +208,7 @@ hr {
     border-radius: 10px;
 }
 
-.content_3 h3 {
+.content_3 h4 {
     text-align: center;
     text-transform: uppercase;
     padding: 1rem 0;
@@ -297,7 +301,7 @@ hr {
     min-height: 25vh;
 }
 
-.content_5 .col-1 h3 {
+.content_5 .col-1 h4 {
     text-transform: uppercase;
     text-align: center;
     padding: 0.5rem 0;
@@ -332,7 +336,7 @@ hr {
     min-height: 25%;
 }
 
-.contact h3 {
+.contact h4 {
     text-align: center;
     text-transform: uppercase;
     padding: 0.5rem 0;
@@ -366,7 +370,7 @@ footer {
         background: rgb(174, 200, 230);
         display: block;
     }
-    .head1 h3 {
+    .head1 h4 {
         text-align: center;
         text-transform: uppercase;
     }
